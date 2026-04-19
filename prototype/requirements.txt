@@ -1,17 +1,6 @@
-# Einstein AI Coding Agent - Prototype Dependencies
-
-# Voice input
-SpeechRecognition==3.10.0
-pyaudio==0.2.14
-openai-whisper==20231117
-
-# HTTP requests for LM Studio
-requests==2.31.0
-
-# Optional: Wake word detection (requires Porcupine access key)
-# pvporcupine==2.2.0
-
-# Audio processing dependencies (platform-specific)
-# macOS: brew install portaudio
-# Linux: sudo apt-get install portaudio19-dev python3-pyaudio
-# Windows: pip install pipwin && pipwin install pyaudio
+SpeechRecognition>=3.10.0
+openai-whisper
+requests>=2.31.0
+pyttsx3
+pyaudio
+pvporcupine
